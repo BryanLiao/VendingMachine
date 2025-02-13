@@ -8,9 +8,9 @@
 #### 2-1.資料表介紹:
 user(後台使用者)、member(會員)、orders(訂單)、order_detail(訂單明細)、product(產品)。
 #### 2-2.資料表關聯關係為
-member.id(PK) -> orders.member_id(FK) 
-orders.id(PK) -> order_detail.order_id(FK)
-product.id(PK) -> order_detail.product_id(FK)
+member.id(PK) -> orders.member_id(FK)  
+orders.id(PK) -> order_detail.order_id(FK)  
+product.id(PK) -> order_detail.product_id(FK)  
 
 可參考以下關聯圖  
 ![資料表關聯圖](資料表關聯圖.png)
@@ -38,17 +38,18 @@ product.id(PK) -> order_detail.product_id(FK)
 
 ### 5.安裝說明
 #### 5-1.預先安裝
-請先安裝java jdk 11以上版本，建議11版本即可太高版可能會有問題。另外mysq的
-版本建議: 8.0.41.0。
+(1)請先安裝java jdk 11以上版本，建議11版本即可太高版可能會有問題。  
+(2)mysq的版本建議: 8.0.41.0。  
+(3)mysql開發工具「MySQL Workbench」，或有其他熟悉開發工具也可。  
 
 #### 5-2.資料庫部份
 請參考附圖：  
 首先請先開啟MySQL開發工具MySQL Workbench  
 ![MySQL Workbench_匯入流程1](MySQL_Workbench_匯入流程1.png)  
 ![MySQL Workbench_匯入流程２](MySQL_Workbench_匯入流程2.png)    
-之後資料夾選擇 「VendingMachine\sql」
+之後資料夾選擇 「VendingMachine\sql」，再按「Start Import」按鈕即可。
 
 #### 5-3.程式執行
-請修改config.ini中的資料庫路徑、連線密碼後，直接點選VendingMachine.jar檔即可運行。
+請修改VendingMachine/可執行jar檔/config.ini中的資料庫路徑、連線密碼後，直接點選此資料夾VendingMachine.jar檔即可運行。
 
 
