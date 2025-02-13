@@ -44,12 +44,12 @@ product.id(PK) -> order_detail.product_id(FK)
 #### 5-2 資料庫部份
 請參考附圖：  
 首先請先開啟MySQL開發工具MySQL Workbench  
-![MySQL Workbench_匯入流程1](MySQL Workbench_匯入流程1.png)  
-![MySQL Workbench_匯入流程２](MySQL Workbench_匯入流程2.png)    
+![MySQL Workbench_匯入流程1](MySQL_Workbench_匯入流程1.png)  
+![MySQL Workbench_匯入流程２](MySQL_Workbench_匯入流程2.png)    
 之後資料夾選擇 「VendingMachine\sql」
 
 #### 5-3 程式執行
-直接點選VendingMachine.jar檔即可運行。
+請修改config.ini中的資料庫路徑、連線密碼後，直接點選VendingMachine.jar檔即可運行。
 
 #### 備註：
 為避免有版權爭議，程式中所使用之圖片或音樂皆由AI協助生成，非由其他網站下載。
