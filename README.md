@@ -1,4 +1,4 @@
-線上自動販賣機
+視窗版自動販賣機
 ===
 主要為模擬實體販賣機運行。
 ### 1.系統架構說明
@@ -51,5 +51,8 @@ product.id(PK) -> order_detail.product_id(FK)
 
 #### 5-3.程式執行
 請修改VendingMachine/可執行jar檔/config.ini中的資料庫路徑、連線密碼後，直接點選此資料夾VendingMachine.jar檔即可運行。
+
+#### 備註：
+為避免有版權爭議，程式中所使用之圖片或音樂皆由AI協助生成，非由其他網站下載
 
 
